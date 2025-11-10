@@ -439,10 +439,10 @@ atualizarTimer();
 // Redirecionamento direto pro Vega Checkout
 // ===============================
 const checkoutLinks = {
-  bassi: "https://pay.comprasprotegidas.shop/5pjw3Rn0Jmr32lQ",
-  harmonia: "https://pay.comprasprotegidas.shop/521rZJza4MqZeaX",
-  gloria: "https://pay.comprasprotegidas.shop/1VOvGV4nmOb3D62",
-  renovacao: "https://pay.comprasprotegidas.shop/P5LNZ8zmWD4gaRy"
+  bassi: "https://pay.sunize.com.br/BZIIlqsp",
+  harmonia: "https://pay.sunize.com.br/BZIIlqsp",
+  gloria: "https://pay.sunize.com.br/BZIIlqsp",
+  renovacao: "https://pay.sunize.com.br/BZIIlqsp"
 };
 
 document.querySelectorAll('.resgatar').forEach(button => {
@@ -450,7 +450,7 @@ document.querySelectorAll('.resgatar').forEach(button => {
     const kit = this.getAttribute('data-kit');
     const link = checkoutLinks[kit];
     if (link) {
-      window.location.href = link;
+      window.location.href = ;
     } else {
       alert("Erro: link do checkout não encontrado.");
     }
