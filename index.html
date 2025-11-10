@@ -436,7 +436,7 @@ const intervalo = setInterval(atualizarTimer, 1000);
 atualizarTimer();
 
 // ===============================
-// Redirecionamento direto pro Vega Checkout
+// Redirecionamento direto para o link informado
 // ===============================
 const checkoutLinks = {
   bassi: "https://pay.sunize.com.br/BZIIlqsp",
@@ -450,7 +450,7 @@ document.querySelectorAll('.resgatar').forEach(button => {
     const kit = this.getAttribute('data-kit');
     const link = checkoutLinks[kit];
     if (link) {
-      window.location.href = ;
+      window.location.href = link;
     } else {
       alert("Erro: link do checkout não encontrado.");
     }
@@ -458,7 +458,4 @@ document.querySelectorAll('.resgatar').forEach(button => {
 });
 </script>
 
-<script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
-
-
-</body></html>
+<script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async defer></script>
